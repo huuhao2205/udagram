@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "",
   "main": "server.ts",
+  "engines": {
+    "node": ">=14.15"
+  },
   "scripts": {
     "start": "node ./server.js",
     "start:dev": "node ./www/server.js",
