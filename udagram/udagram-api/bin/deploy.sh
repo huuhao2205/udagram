@@ -14,5 +14,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
           AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
           URL=$URL
-
 eb deploy Udagram-api1-dev
