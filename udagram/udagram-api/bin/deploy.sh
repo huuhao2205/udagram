@@ -1,5 +1,5 @@
 eb init udagram-api --region us-east-1 
-eb use Udagram-api-dev
+eb use Udagram-api-env
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
           POSTGRES_DB=$POSTGRES_DB
@@ -15,4 +15,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
           URL=$URL
 
-eb deploy Udagram-api-dev
+eb deploy Udagram-api-env
