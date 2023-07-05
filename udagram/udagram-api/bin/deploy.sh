@@ -15,6 +15,6 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST \
           AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
           URL=$URL\
-          AWS_PROFILE=$AWS_PROFILE \
-
+          AWS_PROFILE=$AWS_PROFILE
+echo AWS_ACCESS_KEY_ID
 eb deploy Udagram-api-env
