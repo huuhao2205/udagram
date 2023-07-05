@@ -1,4 +1,8 @@
 eb init udagram-api --region us-east-1 
+
+set -x
+set -e
+
 eb use Udagram-api-env
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
